@@ -1,5 +1,5 @@
 # this script converts the ncat.exe file (located in the same folder) to base64
-#run $> python3 encoding_binary.py
+#run $> python3 1-encoding_binary.py
 
 import base64
 
@@ -11,4 +11,4 @@ with open('ncat.exe', 'rb') as binary_file:
 
     print(base64_message)
 
-# copy and paste the output into a file
+# copy and paste the output into a file (ncatbase64)
